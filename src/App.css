@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #fdf2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== Scrollbar CSS */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
+/* ==================== Navbar start */
+
+.navbar{
+  border-radius: 10px 10px 0 0;
+  margin-top: 25px;
+  min-width: 550px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px 36px;
+  height: 70px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  max-width: 100px;
+}
+
+/* Navbar end =============================== */
+
+
+/* ==================== Hero start */
+
+section{
+  background-color: white;
+  padding: 30px;
+}
+
+.hero-section {
+  position: relative;
+  z-index: -100;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-grid{
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 450px;
+  align-self: center;
+}
+
+.hero--title{
+  position: relative;
+  margin-top: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  font-size: 36px;
+}
+
+.hero--content{
+  position: relative;
+  bottom: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  max-width: 320px;
+
+}
+
+/* Hero end =============================== */
+
+/* ==================== Card start */
+
+.card-list{
+  position: relative;
+  bottom: 30px;
+  max-width: 550px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 1px;
+}
+
+.card{
+  position: relative;
+  width: 176px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.card--badge{
+  position: absolute;
+  top: 6px; left: 6px;
+  background-color: white;
+  padding: 3px 4px;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.card--image{
+  height: 100%;
+}
+
+.card--rating{
+  padding-top: 8px;
+  display: flex;
+  line-height: 110%;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card--star{
+  width: 14px;
+  margin-right: 3px;
+}
+
+.card--place{
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  margin: 3px;
+  font-size: 12px;
+  color: #918E9B;
+}
+
+
+.card--content{
+  margin-top: 9px;
+  font-weight: 300;
+  line-height: 110%;
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+
+.card--price{
+  margin-block: 8px;
+  position: relative;
+  bottom: 9px;
+  font-size: 12px;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+.card--qty{
+  font-weight: 300;
+}
+
+
+/* Card end =============================== */
