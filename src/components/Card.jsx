@@ -1,4 +1,4 @@
-import starImg from '../../assets/Star.png'
+import starImg from '/assets/Star.png'
 
 
 export default function Card(props) {
@@ -8,7 +8,7 @@ export default function Card(props) {
     return (
         <div className="card">
             {badgeText && <div className="card--badge">{badgeText}</div>}
-            <img src={`../../assets/${props.coverImg}`} alt="katie" className='card--image'/>
+            <img src={`/assets/${props.coverImg}`} alt="katie" className='card--image'/>
             <span className='card--rating'>
                 <img src={starImg} alt="" className='card--star'/>
                     {props.stats.rating}
