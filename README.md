@@ -6,3 +6,7 @@ From Scrimba Learn React Course Week 2!
 • Data comes from a data file , Cards are data-driven therefore.
 
 • I added a not so noticeable scroll
+
+# Deployed At
+
+• https://airbnb-exp-codestrate.netlify.app/ 
